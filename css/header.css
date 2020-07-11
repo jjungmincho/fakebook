@@ -1,0 +1,25 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__title {
+  font-size: 30px;
+  font-weight: 600;
+  color: #2377e5;
+}
+
+.header__icon {
+  font-size: 20px;
+  margin-left: 15px;
+  cursor: pointer;
+  background-color: #e4e4e4;
+  padding: 7px;
+  border-radius: 40px;
+}
+
+.header__header-column {
+  display: flex;
+  align-items: center;
+}
