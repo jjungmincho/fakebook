@@ -2,7 +2,8 @@
 @import "status-bar.css";
 @import "header.css";
 @import "nav-bar.css";
-
+@import "search.css";
+@import "post.css";
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +12,14 @@
 
 body {
   background-color: #c9ccd1;
-  padding: 10px 20px;
   color: #020202;
   font-family: "Roboto", sans-serif;
+}
+
+.header-bg {
+  background-color: white;
+  width: 100%;
+  padding: 10px;
+  margin-top: 1px;
+  border-bottom: 1px solid #eeeeee;
 }

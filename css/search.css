@@ -1,0 +1,23 @@
+.search-box {
+  display: flex;
+  background-color: white;
+  padding: 15px;
+  margin-left: 10px;
+  border-radius: 50px;
+  border: 1px solid #d8d8d9;
+  box-shadow: 1px 1px 8px -5px rgba(56, 56, 56, 0.45);
+  width: 100%;
+}
+
+input {
+  outline: none;
+  border: none;
+  font-size: 20px;
+  padding-left: 10px;
+  width: 100%;
+}
+
+::placeholder {
+  color: #020202;
+  font-family: "roboto", sans-serif;
+}
