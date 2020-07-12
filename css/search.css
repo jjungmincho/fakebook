@@ -1,7 +1,7 @@
 .search-box {
   display: flex;
   background-color: white;
-  padding: 15px;
+  padding: 9px;
   margin-left: 10px;
   border-radius: 50px;
   border: 1px solid #d8d8d9;
@@ -12,8 +12,8 @@
 input {
   outline: none;
   border: none;
-  font-size: 20px;
-  padding-left: 10px;
+  font-size: 18px;
+  padding-left: 20px;
   width: 100%;
 }
 
