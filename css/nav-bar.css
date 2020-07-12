@@ -3,13 +3,18 @@ nav {
   width: 100%;
   background-color: #f9f9f9;
   padding: 20px;
-  bottom: 5px;
+  bottom: 1px;
   left: 0px;
   border-top: 1px solid #eeeeee;
 }
 
 nav i {
   color: #242424cc;
+}
+
+i:hover,
+#index-btn {
+  color: #2377e5;
 }
 
 .nav__list {
