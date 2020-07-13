@@ -1,18 +1,19 @@
-.story__row {
+.carousel__row {
+  display: flex;
+  overflow: hidden;
   background-color: white;
   margin-top: 20px;
   padding: 10px;
   border-top: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
-  display: flex;
 }
 
-.story__column {
+.carousel__column {
   width: 33.33%;
   padding: 3px;
 }
 
-.story__column img {
+.carousel__column img {
   width: 160px;
   height: 250px;
   border-radius: 10px;
