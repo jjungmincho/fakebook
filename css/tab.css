@@ -1,0 +1,35 @@
+.tab__list {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 13px 0 5px 0;
+}
+
+.tab__list-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+}
+
+h4 {
+  color: #242424cc;
+  margin-left: 8px;
+}
+
+#tab__video-btn {
+  color: #e94448;
+}
+
+#tab__image-btn {
+  color: #89c047;
+}
+
+#tab__photo-video-btn {
+  color: #8c60ee;
+}
+
+#tab__video-btn,
+#tab__image-btn {
+  border-right: 1px solid #eeeeee;
+  padding-right: 40px;
+}

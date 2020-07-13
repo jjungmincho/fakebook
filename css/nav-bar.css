@@ -12,7 +12,7 @@ nav i {
   color: #242424cc;
 }
 
-i:hover,
+.nav__list i:hover,
 #index-btn {
   color: #2377e5;
 }

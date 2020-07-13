@@ -4,6 +4,8 @@
 @import "nav-bar.css";
 @import "search.css";
 @import "post.css";
+@import "tab.css";
+
 * {
   margin: 0;
   padding: 0;
@@ -23,4 +25,9 @@ body {
   padding: 10px;
   border-bottom: 1px solid #eeeeee;
   margin-top: 28px;
+}
+
+nav,
+.tab__list-item {
+  cursor: pointer;
 }
