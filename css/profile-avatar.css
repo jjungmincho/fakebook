@@ -1,11 +1,10 @@
-.post {
+.profile-avatar-box {
   display: flex;
   margin-top: 20px;
   padding-bottom: 10px;
-  border-bottom: 1px solid #f7f7f7;
 }
 
-.profile-img {
+.profile-avatar-img {
   width: 55px;
   height: 55px;
   border-radius: 50%;

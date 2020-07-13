@@ -3,7 +3,7 @@
 @import "header.css";
 @import "nav-bar.css";
 @import "search.css";
-@import "post.css";
+@import "profile-avatar.css";
 @import "tab.css";
 @import "carousel.css";
 
@@ -24,11 +24,15 @@ body {
   background-color: white;
   width: 100%;
   padding: 10px;
-  border-bottom: 1px solid #eeeeee;
   margin-top: 28px;
 }
 
 nav,
 .tab__list-item {
   cursor: pointer;
+}
+
+.header-bg,
+.profile-avatar-box {
+  border-bottom: 1px solid #eeeeee;
 }
