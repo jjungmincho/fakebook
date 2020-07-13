@@ -16,7 +16,7 @@
 
 .carousel__img {
   width: 140px;
-  height: 220px;
+  height: 250px;
   border-radius: 10px;
 }
 
@@ -40,7 +40,7 @@
   top: 78%;
 }
 
-.carousel__profile-avatar-s {
+.carousel__profile-avatar {
   position: absolute;
   width: 55px;
   height: 55px;
