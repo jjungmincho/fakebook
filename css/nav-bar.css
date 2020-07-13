@@ -2,8 +2,8 @@ nav {
   position: fixed;
   width: 100%;
   background-color: #f9f9f9;
-  padding: 20px;
-  bottom: 1px;
+  bottom: 0px;
+  padding: 0px 15px 15px 10px;
   left: 0px;
   border-top: 1px solid #eeeeee;
 }
@@ -19,21 +19,29 @@ nav i {
 
 .nav__list {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+
+.nav__list-link {
+  position: relative;
+  padding: 30px 20px 20px 20px;
 }
 
 .nav__list-item {
   list-style-type: none;
 }
 
-.nav__list-link {
-  position: relative;
+.nav__list-item:nth-child(1) {
+  border-top: 3px solid #2377e5;
+  padding-top: 10px;
 }
 
 .nav__badge {
   position: absolute;
-  top: -15px;
-  right: -7px;
+  top: 12px;
+  right: 12px;
   font-size: 10px;
   color: white;
   background-color: #f24262;
