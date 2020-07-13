@@ -5,6 +5,7 @@
 @import "search.css";
 @import "post.css";
 @import "tab.css";
+@import "story.css";
 
 * {
   margin: 0;
