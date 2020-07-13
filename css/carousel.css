@@ -11,10 +11,41 @@
 .carousel__column {
   width: 33.33%;
   padding: 3px;
+  position: relative;
 }
 
-.carousel__column img {
+.carousel__img {
   width: 140px;
   height: 220px;
   border-radius: 10px;
+}
+
+#plus-btn {
+  color: #2377e5;
+  background-color: white;
+  border-radius: 50%;
+  border: 0.5px solid #eeeeee;
+  position: absolute;
+  padding: 18px;
+  margin: 5px;
+  z-index: 1;
+}
+
+.carousel__title {
+  color: white;
+  position: absolute;
+  z-index: 2;
+  padding: 4px;
+  margin: 8px;
+  top: 78%;
+}
+
+.carousel__profile-avatar-s {
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  padding: 3px;
+  margin: 5px;
+  border: 2.5px solid #2377e5;
 }

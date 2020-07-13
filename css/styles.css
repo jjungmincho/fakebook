@@ -3,7 +3,7 @@
 @import "header.css";
 @import "nav-bar.css";
 @import "search.css";
-@import "mini-post.css";
+@import "index-post.css";
 @import "tab.css";
 @import "carousel.css";
 
@@ -28,7 +28,8 @@ body {
 }
 
 nav,
-.tab__list-item {
+.tab__list-item,
+.profile-avatar-img {
   cursor: pointer;
 }
 
