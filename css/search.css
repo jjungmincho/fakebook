@@ -1,5 +1,6 @@
 .search-box {
   display: flex;
+  align-items: center;
   background-color: white;
   padding: 9px;
   margin-left: 10px;
@@ -9,15 +10,10 @@
   width: 100%;
 }
 
-input {
-  outline: none;
-  border: none;
+.search-box a {
+  text-decoration: none;
+  color: #020202;
   font-size: 18px;
   padding-left: 20px;
   width: 100%;
-}
-
-::placeholder {
-  color: #020202;
-  font-family: "roboto", sans-serif;
 }
