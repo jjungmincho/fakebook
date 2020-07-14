@@ -1,0 +1,22 @@
+.carousel__fullscreen {
+  position: fixed;
+  background-color: black;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel__fullscreen i {
+  position: absolute;
+  color: white;
+  top: 20px;
+  right: 15px;
+  z-index: 30;
+}
+
+.carousel__fullimg {
+  width: 100%;
+}
