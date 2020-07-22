@@ -1,0 +1,41 @@
+.post__container {
+  background-color: white;
+  margin-top: 20px;
+  padding: 10px;
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.post__header {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0;
+}
+
+.post__name {
+  display: flex;
+  flex-direction: column;
+}
+
+.post__title {
+  display: flex;
+  align-items: center;
+  padding-bottom: 5px;
+}
+
+h3 {
+  padding: 0px 5px;
+  color: #020202;
+}
+
+.post__subtitle,
+.post__btn {
+  padding: 0 5px;
+  color: #242424cc;
+}
+
+p {
+  font-size: 30px;
+  padding: 20px 15px;
+  color: #020202;
+}
