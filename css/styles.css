@@ -35,7 +35,8 @@ nav,
 .profile-avatar-img,
 .carousel__img,
 .header__icon,
-.carousel__fullscreen i {
+.carousel__fullscreen i,
+.post__list {
   cursor: pointer;
 }
 
