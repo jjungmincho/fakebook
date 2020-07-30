@@ -10,11 +10,11 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/styles.css" />
-    <title>Fakebook | Main Page</title>
-    <script defer src="clock.js"></script>
+    <title>Fakebook | Login Page</title>
+    <script src="clock.js" defer></script>
   </head>
   <body>
-    <div class="status-bar">
+    <section class="status-bar" id="status-bar__login">
       <div class="status-bar__column" id="js-clock">
         <span>00:00</span>
       </div>
@@ -24,9 +24,14 @@
         <span class="status-bar__battery-level">50%</span>
         <i class="fas fa-battery-half"></i>
       </div>
-    </div>
-    <header>
-      <img src="" alt="LogIn Image" />
+    </section>
+    <header class="login__header">
+      <img
+        src="images/login-bg.jpg"
+        alt="LogIn Image"
+        style="width: 500px; overflow: hidden;"
+      />
     </header>
+    <section></section>
   </body>
 </html>
