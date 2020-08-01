@@ -13,8 +13,8 @@
     <title>Fakebook | Login Page</title>
     <script src="clock.js" defer></script>
   </head>
-  <body>
-    <section class="status-bar" id="status-bar__login">
+  <body class="login__body">
+    <section class="status-bar">
       <div class="status-bar__column" id="js-clock">
         <span>00:00</span>
       </div>
@@ -26,12 +26,17 @@
       </div>
     </section>
     <header class="login__header">
-      <img
-        src="images/login-bg.jpg"
-        alt="LogIn Image"
-        style="width: 500px; overflow: hidden;"
-      />
+      <img src="images/login-bg.jpg" alt="LogIn Image" class="login__img" />
     </header>
-    <section></section>
+    <section class="login__input">
+      <input type="text" onfocus="this.value=''" value="Phone or email" />
+      <input type="text" onfocus="this.value=''" value="Password" />
+      <button class="login__btn">Log In</button>
+      <span class="login__span-password">Forgot Password?</span>
+      <span class="login__span-or">OR</span>
+      <button class="login__btn-account">
+        Create New Fakebook Account
+      </button>
+    </section>
   </body>
 </html>
