@@ -22,7 +22,7 @@
   width: 90%;
   font-size: 25px;
   padding: 10px 0;
-  color: #242424cc;
+  color: #e4e4e4;
   border-bottom: 2px solid #eeeeee;
 }
 
@@ -31,6 +31,7 @@
   margin: 30px 0 10px 0;
   outline: none;
   border: none;
+  cursor: pointer;
 }
 
 .login__btn {
@@ -42,8 +43,8 @@
 
 .login__span-password {
   color: #2377e5;
-  font-weight: 600;
   margin: 20px 0;
+  cursor: pointer;
 }
 
 .login__btn-account {
@@ -54,6 +55,12 @@
 }
 
 .login__span-or {
+  font-size: 15px;
+  color: #242424cc;
   padding: 30px 0;
   margin: 30px 0;
+}
+
+.login__hr {
+  border: 1px solid #242424cc;
 }
