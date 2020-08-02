@@ -35,10 +35,14 @@
 }
 
 .login__btn {
-  color: white;
   background-color: #2377e5;
   padding: 10px 190px;
   border-radius: 4px;
+}
+
+.login__btn a {
+  text-decoration: none;
+  color: white;
 }
 
 .login__span-password {
