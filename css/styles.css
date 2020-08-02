@@ -9,6 +9,7 @@
 @import "fullscreen.css";
 @import "login.css";
 @import "post.css";
+@import "createpost.css";
 
 * {
   margin: 0;
