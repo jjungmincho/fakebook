@@ -7,6 +7,10 @@ header {
 .header__title {
   font-size: 30px;
   font-weight: 600;
+}
+
+.header__title a {
+  text-decoration: none;
   color: #2377e5;
 }
 
