@@ -35,7 +35,7 @@
 }
 
 .login__btn {
-  background-color: var(--color-light-grey);
+  background-color: var(--color-blue);
   padding: 10px 190px;
   border-radius: 4px;
 }
