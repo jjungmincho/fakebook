@@ -50,7 +50,8 @@ nav,
 .carousel__img,
 .header__icon,
 .carousel__fullscreen i,
-.post__list {
+.post__list,
+.createpost__drop-down {
   cursor: pointer;
 }
 
