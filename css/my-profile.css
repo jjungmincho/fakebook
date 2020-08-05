@@ -1,3 +1,115 @@
 .myprofile__body {
   background-color: var(--color-white);
 }
+
+.myprofile__header {
+  padding: 40px 15px 10px 15px;
+  border-bottom: 1px solid var(--color-light-grey);
+}
+
+.myprofile__header a {
+  color: var(--color-black);
+}
+
+.myprofile__search-box {
+  background-color: var(--color-light-grey);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 13px 10px;
+  width: 95%;
+  border-radius: 30px;
+}
+
+.myprofile__search-box i {
+  padding-left: 5px;
+  color: var(--color-dark-grey);
+}
+
+/* myprofile photo */
+.myprofile__edit-photo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.myprofile__edit-photo h1 {
+  padding: 30px 10px 10px 10px;
+  position: relative;
+  z-index: 3;
+  margin-top: 20%;
+  font-size: 30px;
+}
+
+.myprofile__photo {
+  position: relative;
+  padding: 20px;
+  width: 100%;
+  height: 290px;
+  overflow: hidden;
+}
+
+.myprofile__photo img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.myprofile__photo i {
+  position: absolute;
+  z-index: 1;
+  bottom: 5%;
+  right: 8%;
+  color: var(--color-white);
+  background-color: var(--color-dark-grey);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.myprofile__avatar-img {
+  position: absolute;
+}
+
+.myprofile-avatar-img {
+  width: 250px;
+  height: 250px;
+  margin-top: 20%;
+  border-radius: 100%;
+  border: 6px solid var(--color-white);
+}
+
+.myprofile__avatar-img i {
+  position: absolute;
+  z-index: 2;
+  bottom: 5%;
+  right: 8%;
+  background-color: var(--color-dark-grey);
+  padding: 20px;
+  border-radius: 100%;
+  color: var(--color-white);
+  font-size: 20px;
+}
+
+.myprofile__story {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1px solid var(--color-light-grey);
+  margin-top: 10px;
+  padding-bottom: 20px;
+}
+
+.myprofile__add-to-story {
+  color: var(--color-white);
+  background-color: var(--color-blue);
+  padding: 15px 130px;
+  border-radius: 10px;
+}
+
+#myprofile__story-i {
+  background-color: var(--color-light-grey);
+  margin-left: 5px;
+  padding: 15px 20px;
+  border-radius: 10px;
+}
