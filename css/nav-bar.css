@@ -1,19 +1,19 @@
 nav {
   position: fixed;
   width: 100%;
-  background-color: #f9f9f9;
+  background-color: var(--color-light-grey);
   bottom: 0px;
   padding: 0px 15px 15px 10px;
   left: 0px;
 }
 
 nav i {
-  color: #242424cc;
+  color: var(--color-dark-grey);
 }
 
 .nav__list i:hover,
 #index-btn {
-  color: #2377e5;
+  color: var(--color-blue);
 }
 
 .nav__list {
@@ -33,7 +33,7 @@ nav i {
 }
 
 .nav__list-item:nth-child(1) {
-  border-top: 3px solid #2377e5;
+  border-top: 3px solid var(--color-blue);
   padding-top: 10px;
 }
 
@@ -42,8 +42,8 @@ nav i {
   top: 12px;
   right: 12px;
   font-size: 10px;
-  color: white;
-  background-color: #f24262;
+  color: var(--color-white);
+  background-color: var(--color-red);
   width: 18px;
   height: 18px;
   display: flex;

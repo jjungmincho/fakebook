@@ -1,18 +1,18 @@
 .search-box {
   display: flex;
   align-items: center;
-  background-color: white;
+  background-color: var(--color-white);
   padding: 9px;
   margin-left: 10px;
   border-radius: 50px;
-  border: 1px solid #d8d8d9;
-  box-shadow: 1px 1px 8px -5px rgba(56, 56, 56, 0.45);
+  border: 1px solid var(--color-light-grey);
+  box-shadow: 1px 1px 8px -5px var(--color-grey);
   width: 100%;
 }
 
 .search-box a {
   text-decoration: none;
-  color: #020202;
+  color: var(--color-black);
   font-size: 18px;
   padding-left: 20px;
   width: 100%;

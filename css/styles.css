@@ -11,6 +11,19 @@
 @import "post.css";
 @import "createpost.css";
 
+:root {
+  /* color */
+  --color-black: #020202;
+  --color-dark-grey: #242424cc;
+  --color-grey: #c9ccd1;
+  --color-light-grey: #eeeeee;
+  --color-white: #ffffff;
+  --color-blue: #2377e5;
+  --color-green: #89c047;
+  --color-red: #e94448;
+  --color-purple: #8c60ee;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -18,14 +31,14 @@
 }
 
 body {
-  background-color: #c9ccd1;
-  color: #020202;
+  background-color: var(--color-grey);
+  color: var(--color-black);
   font-family: "Roboto", sans-serif;
   height: 150vh;
 }
 
 .header__container {
-  background-color: white;
+  background-color: var(--color-white);
   width: 100%;
   padding: 10px;
   margin-top: 28px;
@@ -43,5 +56,5 @@ nav,
 
 .header-bg,
 .profile-avatar-box {
-  border-bottom: 1px solid #eeeeee;
+  border-bottom: 1px solid var(--color-light-grey);
 }

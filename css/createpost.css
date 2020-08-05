@@ -1,7 +1,12 @@
 .createpost__body {
-  background-color: white;
+  background-color: var(--color-white);
 }
 
 .createpost__header {
   padding: 40px;
+}
+
+.createpost__header-title {
+  text-decoration: none;
+  color: var(--color-black);
 }

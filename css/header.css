@@ -11,13 +11,13 @@ header {
 
 .header__title a {
   text-decoration: none;
-  color: #2377e5;
+  color: var(--color-blue);
 }
 
 .header__icon {
   font-size: 20px;
   margin-left: 10px;
-  background-color: #e4e4e4;
+  background-color: var(--color-light-grey);
   padding: 7px 10px;
   border-radius: 40px;
 }

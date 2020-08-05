@@ -1,5 +1,5 @@
 .login__body {
-  background-color: white;
+  background-color: var(--color-white);
 }
 
 .login__img {
@@ -22,8 +22,8 @@
   width: 90%;
   font-size: 25px;
   padding: 10px 0;
-  color: #e4e4e4;
-  border-bottom: 2px solid #eeeeee;
+  color: var(--color-light-grey);
+  border-bottom: 2px solid var(--color-light-grey);
 }
 
 .login__input button {
@@ -35,39 +35,39 @@
 }
 
 .login__btn {
-  background-color: #2377e5;
+  background-color: var(--color-light-grey);
   padding: 10px 190px;
   border-radius: 4px;
 }
 
 .login__btn a {
   text-decoration: none;
-  color: white;
+  color: var(--color-white);
 }
 
 .login__span-password {
-  color: #2377e5;
+  color: var(--color-blue);
   margin: 20px 0;
   cursor: pointer;
 }
 
 .login__btn-account {
-  color: white;
-  background-color: #89c047;
+  color: var(--color-white);
+  background-color: var(--color-green);
   padding: 10px 80px;
   border-radius: 4px;
 }
 
 .login__span-or {
   font-size: 15px;
-  color: #242424cc;
+  color: var(--color-dark-grey);
   padding: 30px 15px;
   margin: 30px 0;
-  background-color: white;
+  background-color: var(--color-white);
 }
 
 hr {
-  border: 0.2px solid #eeeeee;
+  border: 0.2px solid var(--color-light-grey);
   width: 90%;
   margin-left: 30px;
 }

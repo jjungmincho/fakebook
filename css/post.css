@@ -1,10 +1,10 @@
 /* header */
 .post__container {
-  background-color: white;
+  background-color: var(--color-white);
   margin-top: 20px;
   padding: 10px;
-  border-top: 1px solid #eeeeee;
-  border-bottom: 1px solid #eeeeee;
+  border-top: 1px solid var(--color-light-grey);
+  border-bottom: 1px solid var(--color-light-grey);
 }
 
 .post__header {
@@ -26,13 +26,13 @@
 
 h3 {
   padding: 0px 5px;
-  color: #020202;
+  color: var(--color-black);
 }
 
 .post__subtitle,
 .post__btn {
   padding: 0 5px;
-  color: #242424cc;
+  color: var(--color-black);
 }
 
 /* body */
@@ -40,17 +40,16 @@ h3 {
 p {
   font-size: 30px;
   padding: 20px 15px;
-  color: #020202;
+  color: var(--color-black);
 }
 
 /* comment */
-
 .post__list {
   display: flex;
   justify-content: space-around;
   padding: 13px 0;
-  border-top: 1px solid #eeeeee;
-  border-bottom: 1px solid #eeeeee;
+  border-top: 1px solid var(--color-light-grey);
+  border-bottom: 1px solid var(--color-light-grey);
 }
 
 .post__list-item {
@@ -61,7 +60,7 @@ p {
 }
 
 h4 {
-  color: #242424cc;
+  color: var(--color-black);
   margin-left: 8px;
 }
 
@@ -74,7 +73,7 @@ h4 {
 .comment-box {
   display: flex;
   align-items: center;
-  background-color: #e4e4e4;
+  background-color: var(--color-light-grey);
   padding: 9px;
   margin-left: 10px;
   border-radius: 50px;
@@ -87,7 +86,7 @@ input {
   font-size: 18px;
   padding-left: 20px;
   width: 100%;
-  color: #242424cc;
+  color: var(--color-black);
 }
 
 input:focus {
@@ -95,7 +94,7 @@ input:focus {
 }
 
 .comment-box i {
-  color: #242424cc;
+  color: var(--color-black);
   padding: 3px;
 }
 
@@ -108,11 +107,11 @@ input:focus {
   display: flex;
   justify-content: space-between;
   padding: 15px 2px;
-  color: #242424cc;
+  color: var(--color-black);
 }
 
 #thumbsup-btn {
-  color: #2377e5;
+  color: var(--color-blue);
 }
 
 /* friend comment */
