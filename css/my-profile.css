@@ -122,7 +122,11 @@
 
 .myprofile__edit-details__item {
   padding: 8px 0;
-  color: var(--color-grey);
+  color: var(--color-dark-grey);
+}
+
+.myprofile__edit-details__item span {
+  padding-left: 5px;
 }
 
 #myprofile__edit-dtails-span {
@@ -136,4 +140,52 @@
   padding: 15px 25px;
   border-radius: 10px;
   text-align: center;
+}
+
+/* Friends */
+.myprofile__friends__name {
+  padding: 20px 20px 5px 20px;
+}
+
+.myprofile__friends__title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.myprofile__friends__title h3 {
+  font-weight: 400;
+  color: var(--color-blue);
+}
+
+.myprofile__friends__subtitle {
+  color: var(--color-dark-grey);
+  margin-top: 5px;
+}
+
+.myprofile__friends__list {
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.myprofile__friends__photo {
+  width: 150px;
+  height: 150px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.myprofile__friends__list h5 {
+  padding-left: 5px;
+  margin-bottom: 5px;
+}
+
+.myprofile__friends__text {
+  text-align: center;
+  background-color: var(--color-light-grey);
+  padding: 15px 10px;
+  margin: 0px 30px;
+  border-radius: 10px;
 }
