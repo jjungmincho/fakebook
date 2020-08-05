@@ -113,3 +113,27 @@
   padding: 15px 20px;
   border-radius: 10px;
 }
+
+/* Edit Profile */
+.myprofile__edit-details {
+  padding: 20px 30px;
+  border-bottom: 1px solid var(--color-light-grey);
+}
+
+.myprofile__edit-details__item {
+  padding: 8px 0;
+  color: var(--color-grey);
+}
+
+#myprofile__edit-dtails-span {
+  color: var(--color-black);
+}
+
+.myprofile__edit-details__story {
+  color: var(--color-blue);
+  background-color: var(--color-light-blue);
+  margin-top: 10px;
+  padding: 15px 25px;
+  border-radius: 10px;
+  text-align: center;
+}
