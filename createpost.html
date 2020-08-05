@@ -11,6 +11,7 @@
     />
     <link rel="stylesheet" href="css/styles.css" />
     <script src="src/clock.js" defer></script>
+    <script src="src/dropdown.js" defer></script>
     <title>Fakebook | Create Post</title>
   </head>
   <body class="createpost__body">
@@ -44,16 +45,25 @@
       />
       <div class="createpost__title">
         <h3>Jennifer Loreance</h3>
-        <div class="createpost__drop-down">
-          <div class="createpost__onlyme">
-            <i class="fas fa-lock"></i>
-            <span>Only me</span>
-            <i class="fas fa-caret-down"></i>
+        <div class="createpost__dropdown">
+          <div class="createpost__dropdown__item">
+            <div onclick="show_hide()" class="createpost__dropdown__subtitle">
+              <i class="fas fa-lock"></i>
+              <span>Only me</span>
+              <i class="fas fa-caret-down"></i>
+            </div>
+            <div style="display: none;" id="createpost__drop-content">
+              <a href="#">Public</a>
+              <a href="#">Friends</a>
+              <a href="#">Only Me</a>
+            </div>
           </div>
-          <div class="createpost__album">
-            <i class="fas fa-plus"></i>
-            <span>Album</span>
-            <i class="fas fa-caret-down"></i>
+          <div class="createpost__dropdown__item">
+            <div class="createpost__dropdown__subtitle">
+              <i class="fas fa-plus"></i>
+              <span>Album</span>
+              <i class="fas fa-caret-down"></i>
+            </div>
           </div>
         </div>
       </div>
