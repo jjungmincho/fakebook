@@ -13,13 +13,15 @@
   align-items: center;
 }
 
+.createpost__header-left a {
+  color: var(--color-black);
+}
+
 .createpost__header-right {
   color: var(--color-grey);
 }
 
-.createpost__header-title a {
-  text-decoration: none;
-  color: var(--color-black);
+.createpost__header-title {
   font-weight: 400;
   padding-left: 10px;
 }
