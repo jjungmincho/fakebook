@@ -61,13 +61,8 @@
 .login__span-or {
   font-size: 15px;
   color: var(--color-dark-grey);
-  padding: 30px 15px;
+  padding: 5px 15px;
   margin: 30px 0;
   background-color: var(--color-white);
 }
 
-hr {
-  border: 0.2px solid var(--color-light-grey);
-  width: 90%;
-  margin-left: 30px;
-}
