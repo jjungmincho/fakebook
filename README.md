@@ -1,6 +1,7 @@
 # Fakebook
 
 I cloned Facebook for Mobile using HTML, CSS and Vanilla Javascript.
+
 ---
 
 ## Table of Content
