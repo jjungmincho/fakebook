@@ -1,7 +1,6 @@
 # Fakebook
 
-I cloned Facebook for Mobile using HTML, CSS and Vanilla Javascript. ~~There are still some features I need to develop. (Jan 2021)~~
-
+I cloned Facebook for Mobile using HTML, CSS and Vanilla Javascript.
 ---
 
 ## Table of Content
