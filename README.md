@@ -5,10 +5,10 @@ I cloned Facebook for Mobile using HTML, CSS and Vanilla Javascript.
 ---
 
 ## Table of Content
-- [Technologies](https://github.com/jjessicacho/fakebook#technologies)
-- [Setup](https://github.com/jjessicacho/fakebook#setup)
-- [Features](https://github.com/jjessicacho/fakebook#features)
-- [Sources](https://github.com/jjessicacho/fakebook#sources)
+- [Technologies](https://github.com/jjungmincho/fakebook#technologies)
+- [Setup](https://github.com/jjungmincho/fakebook#setup)
+- [Features](https://github.com/jjungmincho/fakebook#features)
+- [Sources](https://github.com/jjungmincho/fakebook#sources)
 
 ---
 
